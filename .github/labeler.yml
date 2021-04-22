@@ -64,3 +64,10 @@
   - "subsys/bluetooth/mesh/**/*"
   - "include/bluetooth/mesh/**/*"
   - "tests/subsys/bluetooth/mesh/**/*"
+
+"CI-zigbee-test":
+  - "include/zigbee/**/*"
+  - "samples/zigbee/**/*"
+  - "subsys/dfu/**/*"
+  - "subsys/mpsl/**/*"
+  - "subsys/zigbee/**/*"
