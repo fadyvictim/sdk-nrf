@@ -18,6 +18,7 @@
   - "include/bl*"
   - "include/fprotect.h"
   - "include/fw_info.*"
+  - "include/mgmt/*"
   - "include/spm.h"
   - "include/dfu/**/*"
   - "include/net/**/*"
