@@ -125,3 +125,16 @@
   - "samples/nrf5340/multiprotocol_rpmsg/**/*"
   - "modules/nrfxlib/nrf_802154/**/*"
   - "samples/CMakeLists.txt"
+
+"CI-homekit-test":
+  - "subsys/mpsl/**/*"
+  - "drivers/mpsl/**/*"
+  - "dts/bindings/radio_fem/**/*"
+  - "modules/nrfxlib/nrf_802154/**/*"
+  - "drivers/hw_cc310/*"
+  - "subsys/bluetooth/**/*"
+  - "include/bluetooth/**/*"
+  - "samples/bluetooth/**/*"
+  - "subsys/bootloader/**/*"
+  - "subsys/partition_manager/**/*"
+  - "modules/mcuboot/**/*"
