@@ -88,7 +88,7 @@
 
 "CI-desktop-test":
   - "applications/nrf_desktop/**/*"
-  - "boards/arm/*dmouse*/**/*"
+  - "boards/arm/*dmouse*/**/*" zigbee 
   - "boards/arm/*kbd*/**/*"
   - "boards/arm/*dongle*/**/*"
   - "boards/arm/*gmouse*/**/*"
@@ -111,9 +111,17 @@
 
 "CI-crypto-test":
   - "cmake/*"
-  - "drivers/entropy/*"
+  - "drivers/entropy/*" zigbee 
   - "drivers/hw_cc310/*"
   - "drivers/net/*"
   - "samples/crypto/**/*"
   - "subsys/partition_manager/**/*"
   - "tests/crypto/**/*"
+
+"CI-rs-test":
+  - "subsys/mpsl/**/*"
+  - "drivers/mpsl/**/*"
+  - "dts/bindings/radio_fem/**/*"
+  - "samples/nrf5340/multiprotocol_rpmsg/**/*"
+  - "modules/nrfxlib/nrf_802154/**/*"
+  - "samples/CMakeLists.txt"
