@@ -71,3 +71,13 @@
   - "subsys/dfu/**/*"
   - "subsys/mpsl/**/*"
   - "subsys/zigbee/**/*"
+
+"CI-thingy91-test":
+  - "applications/asset_tracker/**/*"
+  - "ext/cjson/**/*"
+  - "drivers/gps/gps_sim/**/*"
+  - "subsys/net/lib/nrf_cloud/**/*"
+  - "subsys/net/lib/cloud/**/*"
+  - "lib/date_time/**/*"
+  - "drivers/sensor/sensor_sim/**/*"
+  - "samples/nrf9160/udp/**/*"
