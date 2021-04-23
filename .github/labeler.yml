@@ -51,8 +51,12 @@
   - "**/*partition_manager*"
 
 "CI-tfm-test":
+  - "cmake/*"
+  - "modules/nrfxlib/**/*"
   - "modules/tfm/**/*"
   - "samples/tfm/**/*"
+  - "subsys/bootloader/**/*"
+  - "subsys/partition_manager/**/*"
   - "tests/subsys/spm/secure_services/**/*"
 
 "CI-ble-test":
@@ -105,3 +109,11 @@
   - "subsys/event_manager/**/*"
   - "subsys/partition_manager/**/*"
 
+"CI-crypto-test":
+  - "cmake/*"
+  - "drivers/entropy/*"
+  - "drivers/hw_cc310/*"
+  - "drivers/net/*"
+  - "samples/crypto/**/*"
+  - "subsys/partition_manager/**/*"
+  - "tests/crypto/**/*"
